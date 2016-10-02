@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Looking to use the Edge version? gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0'
+gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -13,13 +13,13 @@ gem 'rack-timeout', '~> 0.4'
 gem 'jbuilder', '~> 2.5'
 
 # Use PostgreSQL as the database for Active Record
-gem 'pg', '~> 0.18'
+gem 'pg', '~> 0.19'
 
 # Use Redis Rails to set up a Redis backed Cache and / or Session
-gem 'redis-rails', '~> 5.0.0.pre'
+gem 'redis-rails', '~> 5.0.1'
 
 # Use Sidekiq as a background job processor through Active Job
-gem 'sidekiq', '~> 4.1'
+gem 'sidekiq', '~> 4.2.2'
 
 # Use Clockwork for recurring background tasks without needing cron
 # gem 'clockwork', '~> 2.0'
